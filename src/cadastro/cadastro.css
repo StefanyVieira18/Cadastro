@@ -1,0 +1,99 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    
+
+}
+
+
+/*Tela de CADASTRO */
+
+#cabecalho{
+    margin-left: 50px;
+}
+
+.logo{
+    height: 100px;
+    width: 110px;
+    margin-bottom:5px ;
+}
+.form_cadastro{
+    width: 250px;
+    height: 30px;
+    margin-bottom: 5px;
+    border: 2px solid #E7E7E7;
+}
+
+.botao_cadastro{
+    width:254px;
+    height: 30px;
+}
+
+.voltar{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 82%;
+    opacity: 40%;
+}
+
+#formulario ::placeholder{
+    color: red;
+}
+/*Fim tela de CADASTRO */
+
+
+
+
+
+
+@media (min-width:320px)  { 
+    #container{
+        padding: 0% 20%;
+        padding-bottom: 100%;
+    }
+ }
+@media (min-width:360px)  { 
+    #container{
+        padding: 0% 20%;
+        padding-bottom: 100%;
+    }
+ }
+
+ @media (min-width:411px)  { 
+    #container{
+        padding: 0% 20%;
+        padding-bottom: 100%;
+    }
+ }
+
+@media (min-width:468px)  { 
+     #container{
+        padding: 0% 25%;
+        padding-bottom: 100%;
+    }
+ }
+@media (min-width:600px)  { 
+     #container{
+        padding: 0% 30%;
+        padding-bottom: 100%;
+
+    }
+
+ }
+@media (min-width:801px)  { 
+    #container{
+        padding: 0% 35%;
+        padding-bottom: 100%;
+
+    }
+ }
+@media (min-width:1025px) { 
+    #container{
+        padding: 0% 50%;
+        padding-bottom: 100%;
+
+    }
+ }

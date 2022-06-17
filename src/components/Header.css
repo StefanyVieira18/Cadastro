@@ -1,0 +1,25 @@
+ #header{
+		 height: 55px; 
+     width: 100%; 
+ }
+ header button{
+     display: inline-flex;
+     height: 55px;
+     width: 50px;
+     background-color: transparent;
+     border: none;
+     cursor: pointer;
+ }
+ header button img{
+     display: inherit;
+     height: 20px;
+     margin-left: 15px;
+     margin-top: 15px;
+     opacity: 40%;
+		 
+ }
+ header h2{
+     display: inline-flex;
+     text-align: center;
+     margin-left: 120px;
+ }

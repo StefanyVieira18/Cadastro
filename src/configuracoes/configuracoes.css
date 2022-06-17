@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    overflow-y: 50px;
+}
+#header{
+    height: 55px; 
+    width: 100%; 
+}
+header h2{
+    display: inline;
+    text-align: center;
+    margin-left: 10px;
+    font-size: 24px ;
+    font-weight: 500;
+}
+header button{
+    display: inline-flex;
+    height: 55px;
+    width: 50px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    background-image: url('./Imagens/voltar.png');
+}
+header button img{
+    display: inherit;
+    height: 20px;
+    margin-left: 15px;
+    margin-top: 15px;
+    opacity: 40%;
+}
+#lineHeader{
+    margin-top: 0;
+    width: 100%;
+    border: none;
+    border-bottom: 7px solid #EEECEC;
+}
+body{
+    background-image: url('./imagens/fundo.jpeg');
+}
+#perfil{
+    display: inline-flex;
+    width: 90%;
+    height: 65px;
+    margin-left: 20px;
+    margin-top: 40px;
+    border: none;
+    box-shadow: 2px 2px 2px #000;
+    cursor: pointer;
+}
+#perfil img{
+    height: 400px;
+    width: 400px;
+    margin-top: -120px;
+    margin-left: -70px;
+}
+#nome{
+    margin-left: -100px;
+    margin-top: 15px;
+}
+#nome h4{
+    font-size: 18px;
+    margin-left: -210px;
+}
+#nome h6{
+    margin-left: 25px;
+    margin-top: 5px;
+}
+#opcao{
+    display: flex;
+    width: 90%;
+    height: 65px;
+    margin-left: 20px;
+    margin-top: -300px;
+    border: none;
+    box-shadow: 2px 2px 2px #000;
+    cursor: pointer;
+}
+#opcao h4{
+    display: inline-flex;
+    margin-left: 10px;
+}
+#opcao h6{
+    margin-left: 10px;
+}

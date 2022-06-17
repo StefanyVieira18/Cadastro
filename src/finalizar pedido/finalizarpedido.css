@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+#header{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%; 
+}
+#topo{
+    display: flex;  
+}
+header button{
+    display: inline-flex;
+    height: 55px;
+    width: 50px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+header button img{
+    display: inherit;
+    height: 20px;
+    margin-left: 15px;
+    margin-top: 15px;
+    opacity: 40%;
+}
+#cabeca h2{
+  display: flex;
+  margin-left: 20px;
+}
+#cabeca{
+  display: flex;
+}
+#carrinho{
+  margin-top: 15px;
+  margin-left: 125px;
+}
+#limpar{
+  margin-top: 15px;
+  margin-left: 140px;
+  display: flex;
+  color: red;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+#entrega{
+  color: red;
+  cursor: pointer;
+}
+#retirada{
+  cursor: pointer;
+}
+#linha1{
+    margin-top: 0;
+    width: 100%;
+    border: none;
+    border-bottom: 7px solid #EEECEC;
+}
+#mapa{
+  height: 100px;
+  width: 100px;
+  margin-left: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+#enviar{
+    height: 60px;
+    width: 50px;
+    margin-left: 140px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+#info{
+  display: flex;
+}
+#info h3{
+  margin-top: 20px;
+}
+#ok{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+#horario{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+#linha2{
+    margin-top: 0;
+    width: 100%;
+    border: none;
+    border-bottom: 14px solid #EEECEC;
+}
+#bh{
+  justify-content: center;
+  margin-top: 20px;
+  display: flex;
+  margin-bottom: 20px;
+}
+#produto{
+  display: flex;
+}
+#ok2{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+#preco{
+  margin-top: 20px;
+}
+#pote1{
+    height: 100px;
+    width: 60px;
+    margin-left: 170px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+#pote{
+    height: 60px;
+    width: 120px;
+    margin-left: 100px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+#adc{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: red;
+  cursor: pointer;
+}
+#valor{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+}
+#primeiro{
+  display: inline;
+}
+#1{
+  justify-content: flex-start;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+#2{
+  justify-content: flex-end;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+#ok3{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+#ok3 p{
+  color: #CBCBCB;
+}
+#cupom{
+  height: 50px;
+  width: 50px;
+  transform: rotate(120deg);
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+#ver{
+    height: 30px;
+    width: 45px;
+    margin-left: 190px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+#info2{
+  display: flex;
+}
+#ok4{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+#ok4 p{
+  color: #CBCBCB;
+}
+#visa{
+  height: 20px;
+  width: 40px;
+  margin-left: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+#trocar{
+    height: 30px;
+    width: 60px;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+#info3{
+  display: flex;
+}
+#opcao{
+    display: flex;
+    width: 90%;
+    height: 65px;
+    margin-left: 20px;
+    margin-top: 50px;
+    border: none;
+    box-shadow: 2px 2px 2px #000;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+#nome{
+    display: inline-flex;
+    text-align: center;
+    margin-left: 135px;
+    margin-top: 25px;
+}

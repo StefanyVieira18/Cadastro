@@ -1,0 +1,34 @@
+	@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+	
+	*{
+			padding: 0;
+			margin: 0;
+			font-family: 'Roboto', sans-serif;
+	}
+ #shoppingCart{
+    height: 200px;
+    width: 200px;
+    margin-left: calc(50% - 100px);
+    margin-top: 10px;
+}
+#options{
+    margin-top: 30px;
+    margin-left: calc(50% - 200px);
+}
+#options button{
+    margin-top: 10px;
+    height: 80px;
+    width: 400px;
+    border: none;
+    box-shadow: 5px 5px 5px grey;
+    background-color: #EEECEC;
+    cursor: pointer;
+}
+#options button h1{
+    font-size: 36px;
+    text-transform: uppercase;
+}
+#chat a{
+text-decoration: none; 
+color: black;
+}

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+ 
+ *{
+     padding: 0;
+     margin: 0;
+     font-family: 'Roboto', sans-serif;
+ }
+ a{
+     text-decoration: none;
+    color: black;    
+}
+
+ #shoppingCart{
+     height: 250px;
+     width: 250px;
+     margin-left: calc(50% - 125px);
+     margin-top: 10px;
+ }
+
+ #com{
+     text-align: center;
+     margin-top: 20px;
+     color: red;
+     font-weight: bolder;
+ }
+ #form{
+     margin-top: 50px;
+     margin-left: calc(50% - 175px);
+ }
+ #form input{
+     height: 30px;
+     width: 350px;
+     border: 2px solid #c4c4c4;
+     box-shadow: 5px 8px 8px grey;
+     margin-top: 5px;
+     text-align: center;
+ }
+ #forgot{
+    margin-top: 15px;
+    text-align: center;
+    opacity: 0.6;
+    font-weight: bolder;
+ }
+ #entrar{
+     height: 40px;
+     width: 350px;
+     margin-top: 80px;
+     margin-left: calc(50% - 175px);
+     border: none;
+     box-shadow: 5px 8px 8px grey;
+     font-weight: bolder;
+     background-color: #EEECEC;
+
+ }
